@@ -1,0 +1,224 @@
+.home-container {
+    max-width: 1000px;
+    display: flex;
+    padding-top: 60px;
+    margin: auto;
+}
+.home-container > :not(:first-child) {
+    margin-left: 20px;
+}
+.home-upload-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.home-upload-container > button {
+    background-color: #3498db;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    justify-content: center;
+}
+.home-upload-container > button:hover, .home-selection-wrapper > button:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.home-upload-paste-wrapper {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    border-right: 1px dashed #b5b5b5;
+    transition: all .3s ease-in-out;
+}
+
+.home-upload-paste-wrapper:hover p {
+    transition: all .3s ease-in-out;
+    color: #ff5829;
+}
+
+.home-upload-paste-wrapper > p, .home-upload-pdf-wrapper > p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 23px;
+    color: #b5b5b5;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.home-upload-pdf-wrapper {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.home-upload-pdf-wrapper:hover p {
+    transition: all .3s ease-in-out;
+    color: #ff5829;
+}
+
+.home-upload-container > button > img {
+    width: 18px;
+    margin-right: 7px;
+}
+.home-upload-wrapper {
+    height: 260px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+}
+
+.home-paste-input {
+    height: 254px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-paste-input > p {
+    color: #08979c;
+    background: #e6fffb;
+    border: 2px solid #87e8de;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-paste-input > textarea {
+    font-weight: 700;
+}
+
+.home-selection-wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-selection-wrapper > select {
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+}
+.home-selection-wrapper > button {
+    height: 40px;
+    width: 160px;
+    transition: all .3s ease-in-out;
+    outline: none;
+    background-color: #3498db;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.home-radio-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 50px;
+    width: 100%;
+}
+.home-radio-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.home-radio-item > label {
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 8px;
+}
+.home-radio-item > input[type='radio'] {
+    width: 25px;
+    cursor: pointer;
+    height: 25px;
+    transform: scale(1);
+}
+.home-result-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.home-result-container > label {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.home-result-container > textarea {
+    font-weight: 700;
+}
+
+.home-result-container > p {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.home-result-container > p > button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3498db;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+}
+
+.home-result-container > p > button > img {
+    width: 20px;
+    margin-right: 7px;
+}
+
+.home-result-container > p > button:hover {
+    transform: scale(1.05, 1.05);
+}
+.home-result-loading-container {
+    max-width: 1000px;
+    height: 340px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+.header-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #b5b5b5;
+}
+.header-container > h1 {
+    margin: 0;
+    width: 1000px;
+    font-size: 45px;
+    text-align: left;
+    font-weight: 400;
+}

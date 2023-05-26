@@ -1,0 +1,113 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.signup-container > h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.signup-container > p {
+    margin: 0;
+    margin: 15px 0; 
+    font-weight: 500;
+}
+
+.signup-container > span {
+    margin: 30px 0 10px;
+    font-weight: 500;
+}
+
+.signup-form-container > input {
+    height: 40px;
+    width: 300px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 15px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #818181;
+}
+
+.signup-form-container > label {
+    font-weight: 600;
+    margin: 15px 0 7px;
+}
+
+.signup-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signup-container > button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    border-radius: 5px;
+    height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    width: 130px;
+}
+.signup-container > button:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.google-login-btn {
+    background-color: #3498db;
+    height: 35px;
+    transition: all .3s ease-in-out;
+    width: 190px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.google-login-btn > span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.google-login-btn > p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-width: 30px;
+    background-color: #fff;
+}
+.google-login-btn > p > img {
+    width: 23px;
+}
+.google-login-btn:hover {
+    transform: scale(1.05, 1.05);
+}
+.gdpr-container {
+    margin: 40px 0 20px;
+    display: flex;
+    align-items: center;
+}
+.gdpr-container > input[type='checkbox'] {
+    width: 17px;
+    cursor: pointer;
+    height: 17px;
+    transform: scale(1);
+}
+.gdpr-container > span {
+    margin-left: 5px;
+}
+.gdpr-container > span > b {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.gdpr-container > span > b:hover {
+    color: #3498db;
+ }

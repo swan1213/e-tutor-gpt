@@ -1,0 +1,113 @@
+.signin-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin-container > h1 {
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.signin-container > span {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 5px 0 8px;
+}
+.signin-text-img {
+    margin-bottom: 20px;
+    width: 180px;
+}
+.signin-bg {
+    width: 800px;
+}
+.signin-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+}
+.signin-form-container > input {
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 15px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #818181;
+}
+.signin-form-btns {
+    margin-top: 40px;
+    display: flex;
+}
+.signin-form-btns > :not(:first-child) {
+    margin-left: 20px;
+}
+.signin-form-btns > button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    width: 100px;
+}
+.signin-form-btns > button:hover {
+    transform: scale(1.05, 1.05);
+}
+.google-login-btn {
+    background-color: #3498db;
+    height: 35px;
+    transition: all .3s ease-in-out;
+    width: 190px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.google-login-btn > span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.google-login-btn > p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-width: 30px;
+    background-color: #fff;
+}
+.google-login-btn > p > img {
+    width: 23px;
+}
+.google-login-btn:hover {
+    transform: scale(1.05, 1.05);
+}
+.signin-new-etutor {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.signin-new-etutor > span {
+    font-size: 15px;
+}
+.signin-new-etutor > a {
+    text-decoration: underline;
+    margin-left: 5px;
+    transition: all .3s ease-in-out;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+.signin-new-etutor > a:hover {
+    color: #3498db;
+}
